@@ -8,7 +8,7 @@
 
 import Foundation
 import UIKit
-extension UIImageView
+extension UIView
 {
     func ImageLeftX() ->CGFloat
     {
