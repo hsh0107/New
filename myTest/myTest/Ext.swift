@@ -16,5 +16,16 @@ extension UIView
       let x = self.frame.origin.x + self.frame.width
     return x
     }
-
+    
+    func ImageCenterY() ->CGFloat
+    {
+    
+       let y = self.frame.origin.y
+       let CenterY = y + self.bounds.height/2
+        
+        return CenterY
+    
+     }
+    
+    
 }
